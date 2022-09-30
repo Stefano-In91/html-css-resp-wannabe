@@ -137,11 +137,12 @@ img {
  @media screen and (max-width: 480px) {
     .row {
         flex-wrap: wrap;
-
     }
     .lessons .col, .steps .col, .why-us .col-left, .why-us .col-right {
         width: 100%;
         padding: 1rem;
     }
-
+    .why-us .col-right {
+        text-align: center;
+    }
  }
